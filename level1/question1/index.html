@@ -8,7 +8,22 @@
 <body>
 
 <!--Contact Form-->
-
+<h1>Contact Form</h1>
+<form name="contactForm" action="index.html" onsubmit="return validateForm()">
+  <label for="fname">First Name: </label>
+  <input type="text" name="fname" placeholder="First Name" />
+  <br/ >
+  <label for="lname">Last Name: </label>
+  <input type="text" name="lname" placeholder="Last Name" />
+  <br/ >
+  <label for="telephone">Phone Number: </label>
+  <input type="tel" name="telephone" maxlength="9" placeholder="Phone Number" />
+  <br/ >
+  <label for="email">Email: </label>
+  <input type="text" name="email" placeholder="Email" />
+  <br/ >
+  <input type="submit" name="submit" value="Submit">
+</form>
 
 <script src="script.js"></script>
 </body>

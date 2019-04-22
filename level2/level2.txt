@@ -3,19 +3,42 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+   JavaScript Code Style are guidelines for the programming language. It includes things like: Rules for indentation and white space,
+   how you should name your functions and variables, best practices for programming.
+   It makes the code easier to read and to pick up for other developers.
 
 2. What is a Regular Expression?
+   It is a object that describes a pattern of characters, which can later be used to search and match patterns in text and numbers.
 
 3. What does the .random() method do?
+   It generates a random number between 0 and 1, but not including 1.
+   It can also be given properties in order to find random numbers between a given range.
 
 4. What does the .sort() method do?
+   The .sort() method goes through arrays, and sorts its elements in a given order.
 
 5. What does the .reverse() method do?
+   The .reverse() method reverses the order of the elements in an array.
 
 6. List two examples of bad JavaScript code.
+   1. function addNumbers() {
+        console.log(x + 1);
+        var x = 1;
+      }
+      // Assigned variable after the console.log results in "undefined", because the script is read top down.
+
+    2. var Mynumber = 5;
+       var Color = "blue";
+       var MyArray = [8, 3, 1];
+       // None of the variables should start with capital letters.
 
 7. What data types can a JSON object contain?
+   A JSON object can be a number, a string, a boolean, an object, an array and null.
 
 8. What is minifying JavaScript Code?
+   Minifying JavaScript code removes whitespace, comments and shortens the code where possible, in order to make websites load faster.
+   Basically compresses your code.
 
 9. What is a global variable?
+   A global variable is a variable that is accesible anywhere in the script and from any function.
+   It can be declared outside of a function og declared with window object.
